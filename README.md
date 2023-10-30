@@ -23,7 +23,7 @@
 
 ##### 1.
 
-`Tab` vs `Space`
+`Tab` vs `Space`<br/>
 Tap과 Space 중 선호하는 경우는 상황에 따라 다르게 생각합니다.<br/>
 먼저 들여쓰기를 하는 경우에는 Tab을 선호합니다.<br/>
 이유는 들여쓰기시 Spacing을 하면 코드가 길어질 수록 정확히 몇 번 Spacing 한 지 알 수 없고 일정하지 않을 수 있다고 생각합니다.<br/>
@@ -33,27 +33,27 @@ Spacing을 선호하는 상황은 예를 들어서 변수를 정의할 때나, �
 
 ##### 2.
 
-`세미콜론 O` vs `세미콜론 X`
+`세미콜론 O` vs `세미콜론 X`<br/>
 자바스크립트는 세미콜론이 없어도 동작이 되는 유연한 언어입니다.<br/>
 하지만 세미콜론이 없으면 코드가 어디가 마지막인지, 어디서 끝나는 코드인지 쉽게 알 수 없기 때문에<br/>
 세미콜론을 명시하여 코드의 마지막을 알려주는 것이 좋다고 생각합니다.
 
 ##### 3.
 
-`count++;` vs `count += 1;` vs `count = count + 1;`
+`count++;` vs `count += 1;` vs `count = count + 1;`<br/>
 나머지 두 방식에 비해 간결하고 명료하다고 생각하기 때문에 개발을 하면서 선호하는 방식은 count++; 방식 입니다.<br/>
 하지만 제일 중요한 방법은 따로 없고 일관성는 방식의 코드를 작성해야 하는 부분을 중요하게 생각합니다.<br/>
 
 ##### 4.
 
-`if (isLogin) {}` vs `if (isLogin === true) {}`
+`if (isLogin) {}` vs `if (isLogin === true) {}`<br/>
 저는 전자의 방식을 선호합니다.
 이유는 is ~ 라는 변수를 짓는 관행이 Boolean 값을 나타낼 때 많이 사용되기 때문에 true & false 라는 것을 알 수 있습니다.<br/>
 때문에 전자의 방식으로 더 깔끔한 코드를 작성할 수 있다고 생각합니다.
 
 ##### 5.
 
-`isLogin && <HelloWanted />` vs `isLogin ? <HelloWanted /> : <></>` vs `isLogin ? <HelloWanted /> : null` vs `isLogin ? <HelloWanted /> : undfined`
+`isLogin && <HelloWanted />` vs `isLogin ? <HelloWanted /> : <></>` vs `isLogin ? <HelloWanted /> : null` vs `isLogin ? <HelloWanted /> : undfined`<br/>
 저는 첫번째 방식을 선호합니다.<br/>
 위에서 말했듯이 코드는 가독성이 좋은 코드가 클린 코드라고 생각합니다.<br/>
 즉, 첫번째 방식을 보면 isLogin이 true면 <HelloWanted />를 return 하라는 코드라고 바로 이해할 수 있습니다.<br/>
